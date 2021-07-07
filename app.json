@@ -8,7 +8,7 @@
 	"repository": "https://github.com/turnhq/turn-apidocs-proxy",
 	"buildpacks": [
 		{
-			"url": "https://github.com/turnhq/turn-apidocs-proxy"
+			"url": "http://github.com/leafo/heroku-buildpack-lua.git"
 		}
 	],
 	"env": {
