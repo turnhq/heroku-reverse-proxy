@@ -1,11 +1,11 @@
 {
-	"name": "Reverse Proxy",
-	"description": "Spin up a reverse proxy quickly on Heroku",
+	"name": "Turn API Docs Reverse Proxy",
+	"description": "Password protected Turn API Docs",
 	"keywords": [
 		"reverse proxy",
 		"nginx"
 	],
-	"repository": "https://github.com/cwarden/heroku-reverse-proxy",
+	"repository": "https://github.com/turnhq/turn-apidocs-proxy",
 	"buildpacks": [
 		{
 			"url": "http://github.com/leafo/heroku-buildpack-lua.git"
@@ -15,6 +15,5 @@
 		"UPSTREAM_SERVER": {
 			"description": "URL of upstream server to which all requests should be proxied"
 		}
-	},
-	"stack": "cedar-14"
+	}
 }
